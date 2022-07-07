@@ -137,8 +137,8 @@ def limenaivebayes(nbfake,nbtrue):
     outputs.write("/n")
     outputs.close()
 
-nf=input("Number of fake news = ")
-nt=input("Number of true news = ")
+nf=int(input("Number of fake news = "))
+nt=int(input("Number of true news = "))
 limenaivebayes(nf,nt)
 
 
