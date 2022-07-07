@@ -39,9 +39,8 @@ def preprocessing(fake=pd.read_csv("True.csv"),true=pd.read_csv("True.csv")):
     stop = stopwords.words('english')
     data['text'] = data['text'].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop)]))
     #print('data lenght = ',len(data))
-    print('lenfake = ',lenfake)
-    print('lentrue = ',lentrue)
-
+    lenfake=len(fake)
+    lentrue=len(true)
     return(data,lenfake,lentrue)
 
 def dataproc(data,nbfake,nbtrue,lenfake,lentrue):
@@ -137,7 +136,9 @@ def limenaivebayes(nbfake,nbtrue):
     #outputs.write(exp)
     outputs.write("/n")
     outputs.close()
-    
 
+nf=input("Number of fake news = ")
+nt=input("Number of true news = ")
+limenaivebayes(nf,nt)
 
 
