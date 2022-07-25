@@ -1,3 +1,6 @@
+Travail d'implémentation dans le cadre du Projet Détecteur de Fake News décrit dans la publication suivante : https://hal.archives-ouvertes.fr/hal-03697974/document
+
+
 POCs sur la mise en place de deux blocs du détecteur de Fake News
 POCs réalisés sur le Dataset suivant : https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
