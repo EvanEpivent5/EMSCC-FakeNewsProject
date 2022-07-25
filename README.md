@@ -19,7 +19,7 @@ Les résultats de ces algorithmes et plus particulièrement l'explicabilité per
 
 Suite des opérations : 
 - Appliquer la structure présente pour tester les précisions des classifications avec d'autres types de classificateurs ;
-- Appliquer d'autres outils d'explicabilité tels de SHAP pour obtenir plus d'éléments d'explicabilité ;
+- Appliquer d'autres outils d'explicabilité tels que SHAP pour obtenir plus d'éléments d'explicabilité ;
 - Mettre en place les autres blocs de la détection de Fake News (Analyse de structure, de l'auteur etc.) ;
 - Entrainer le modèle avec des datasets plus adaptés (diversité des thèmes abordés).
 
