@@ -11,5 +11,8 @@ Classification des News en Fake/True basée sur le Sentiment Analysis : la bibli
 L'utilisation de Lime permet de comprendre quel type de sentiment (positif, neutre ou négatif) influe le plus sur la classification des news.
 
 
-Les résultats de ces algorithmes et plus particulièrement l'explicabilité permet ensuite d'adapter l'utilisation faite du modèle conceptuel : on détecte les paramètres ayant le plus d'influence dans la discrimination des News.
+Les résultats de ces algorithmes et plus particulièrement l'explicabilité permettent ensuite d'adapter l'utilisation faite du modèle conceptuel : on détecte les paramètres ayant le plus d'influence dans la discrimination des News.
+
+Suite des opérations : 
+Appliquer d'autres 
 
