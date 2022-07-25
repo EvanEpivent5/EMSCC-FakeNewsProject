@@ -10,9 +10,12 @@ SentimentAnalysis :
 Classification des News en Fake/True basée sur le Sentiment Analysis : la bibliothèque nltk : vaderSentiment, SentimentIntensityAnalyser, qui retourne un score de sentiment positif, neutre et négatif.
 L'utilisation de Lime permet de comprendre quel type de sentiment (positif, neutre ou négatif) influe le plus sur la classification des news.
 
+LIME est modèle-agnostique, ce qui signifie qu'il peut être appliqué à n'importe quel modèle d'apprentissage automatique. La technique tente de comprendre le modèle en perturbant l'entrée des échantillons de données et en comprenant comment les prédictions changent.
 
 Les résultats de ces algorithmes et plus particulièrement l'explicabilité permettent ensuite d'adapter l'utilisation faite du modèle conceptuel : on détecte les paramètres ayant le plus d'influence dans la discrimination des News.
 
 Suite des opérations : 
-Appliquer d'autres 
+- Appliquer d'autres outils d'explicabilité tels de SHAP pour obtenir plus d'éléments d'explicabilité. 
+- Mettre en place les autres blocs de la détection de Fake News (Analyse de structure, de l'auteur etc.)
+
 
