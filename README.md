@@ -18,7 +18,8 @@ LIME est modèle-agnostique, ce qui signifie qu'il peut être appliqué à n'imp
 Les résultats de ces algorithmes et plus particulièrement l'explicabilité permettent ensuite d'adapter l'utilisation faite du modèle conceptuel : on détecte les paramètres ayant le plus d'influence dans la discrimination des News.
 
 Suite des opérations : 
-- Appliquer d'autres outils d'explicabilité tels de SHAP pour obtenir plus d'éléments d'explicabilité. 
-- Mettre en place les autres blocs de la détection de Fake News (Analyse de structure, de l'auteur etc.)
-
+- Appliquer la structure présente pour tester les précisions des classifications avec d'autres types de classificateurs ;
+- Appliquer d'autres outils d'explicabilité tels de SHAP pour obtenir plus d'éléments d'explicabilité ;
+- Mettre en place les autres blocs de la détection de Fake News (Analyse de structure, de l'auteur etc.) ;
+- Entrainer le modèle avec des datasets plus adaptés (diversité des thèmes abordés).
 
