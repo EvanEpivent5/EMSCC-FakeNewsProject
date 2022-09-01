@@ -23,3 +23,8 @@ Suite des opérations :
 - Mettre en place les autres blocs de la détection de Fake News (Analyse de structure, de l'auteur etc.) ;
 - Entrainer le modèle avec des datasets plus adaptés (diversité des thèmes abordés).
 
+Difficultés rencontrées :
+- Utilisation de l'outil Lime : bien veiller à donner à LimeTabularExplainer des données du bon type et de la bonne taille (type Matrice + type dans les cellules de la matrice) ;
+- Trouver l'équilibre dans la préparation des données entre simplification trop importante (qui permet une durée d'execution moindre pour le programme mais qui fait perdre en performance de classification) et un manque de simplification (plus de précision mais temps d'execution très importants) ;
+- Comprendre quelle est l'ampleur de l'overfitting dans notre solution (les scores des classificateur paraissent élevés alors que les modèles utilisés sont assez simples) ;
+- 
